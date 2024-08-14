@@ -1,0 +1,17 @@
+{
+  "name": "cypress-books",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "chrome_headed": "cypress run --headed --browser chrome --config-file cypress2.config.js",
+    "chrome_headless": "cypress run --headless --browser chrome --config-file cypress2.config.js",
+    "edge_headed": "cypress run --headed --browser edge --config-file cypress.config.js",
+    "edge_headless": "cypress run --headless --browser edge --config-file cypress.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.13.2"
+  }
+}
